@@ -1,0 +1,7 @@
+ng new host-app --routing --style=scss
+
+ng new remote-app --routing --style=scss
+
+ng add @angular-architects/module-federation --project host-app --port 4200
+
+ng add @angular-architects/module-federation --project remote-app --port 4300
